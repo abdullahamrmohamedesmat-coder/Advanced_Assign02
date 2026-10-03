@@ -6,6 +6,7 @@ namespace Assignment_Advanced02
 {
     public class FilterProducts
     {
+        //Filter products based on a predicate
         public static List<Product> Filter_Products(List<Product> catalog,Predicate<Product> predicate)
         {
             List<Product> result = new List<Product>();
