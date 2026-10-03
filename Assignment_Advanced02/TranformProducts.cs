@@ -6,6 +6,7 @@ namespace Assignment_Advanced02
 {
     public class TranformProducts
     {
+        //Transform_Products 
         public static List<T> Transform_Products<T>(List<Product> catalog, Func<Product, T> func)
         {
             List<T> result = new List<T>();
