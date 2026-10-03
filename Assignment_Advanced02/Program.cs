@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-           
+            //Product Catalog
+
+
             List<Product> catalog = new()
             {
                   new Product { Id=1, Name="Laptop", Category="Electronics", Price=1200, Stock=10 },
